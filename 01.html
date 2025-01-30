@@ -5,21 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Checker</title>
     <link rel="stylesheet" href="01.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 <body>
 
     <!-- Navigation Bar -->
-    <header>
-        <h1>Resume Checker</h1>
-        <button id="loginBtn"><a href="form.html">Login</a></button>
+    
+    <header class="header">
+        <div class="logo">Resume Checker</div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="form.html">Login</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Hero Section -->
      <div class="ass1">
+        
+        <div class="postcard">
+            <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV0SfQBeGiivjGYmgiPcPN8jjwjzVDdQ6hsw&s" alt="img">
+             <!-- <video class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV0SfQBeGiivjGYmgiPcPN8jjwjzVDdQ6hsw&s"></video> -->
+            <br>
+            <h4> Resume Checker</h4>
+            <br>
+            <p>Detail-oriented resume checker with expertise in proofreading, formatting, and optimizing resumes for clarity, ATS compatibility, and professional impact</p>
+        </div>
         <div class="ass">
             <section class="hero">
-                <h2>Optimize Your Resume with AI</h2>
-                <p>Upload your resume and get instant feedback to improve your chances!</p>
+                <h2>Optimize Your Resume with AI</h2><br>
+                <p>Upload your resume and get instant feedback to improve your chances!</p><br>
                 <button id="uploadTrigger">Upload Resume</button>
             </section>
         
@@ -32,6 +50,11 @@
                 </div>
                 <div id="file-info" class="file-info"></div>
             </section>
+        </div>
+        <div class="postcard">
+            <img class="card-img" src="https://assets-us-01.kc-usercontent.com/469992e5-7cbd-0032-ead4-f2db9237053a/c7e6a70b-040e-4103-9fd4-f3f3086dfabe/2021-11-03_how-to-get-most-out-of-panel-Interview.jpg?fm=webp&q=25" alt="img">
+            <br><h4> Resume Checker</h4><br>
+            <p>Ensuring resumes are clear, concise, and professionally presentable for review.</p>
         </div>
     </div>
     <!-- Login Modal -->
@@ -46,6 +69,33 @@
             </form>
         </div>
     </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>A dedicated team of four professionals collaborates to develop a website that reviews resumes, providing expert feedback to enhance job prospects</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2025 Your Resume Checker | All Rights Reserved</p>
+    </footer>
+    
 
     <script src="script.js"></script>
 </body>
