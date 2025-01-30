@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Checker</title>
+    <link rel="stylesheet" href="01.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <h1>Resume Checker</h1>
+        <button id="loginBtn"><a href="form.html">Login</a></button>
+    </header>
+
+    <!-- Hero Section -->
+     <div class="ass1">
+        <div class="ass">
+            <section class="hero">
+                <h2>Optimize Your Resume with AI</h2>
+                <p>Upload your resume and get instant feedback to improve your chances!</p>
+                <button id="uploadTrigger">Upload Resume</button>
+            </section>
+        
+
+            <!-- PDF Upload Section -->
+            <section class="upload-section">
+                <div id="drop-area" class="drop-area">
+                    <p>Drag & Drop PDF Here or <span class="browse-btn">Browse</span></p>
+                    <input type="file" id="fileInput" accept="application/pdf" hidden>
+                </div>
+                <div id="file-info" class="file-info"></div>
+            </section>
+        </div>
+    </div>
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

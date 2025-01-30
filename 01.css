@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(120deg, #007bff, #6610f2);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: white;
+    color: #007bff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f4f4f4;
+}
+
+.hero {
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.upload-section {
+    margin-top: 30px;
+    
+}
+
+.drop-area {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px dashed white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.drop-area:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.browse-btn {
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.file-info {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 300px;
+    margin: 20% auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal-content input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.modal-content button {
+    width: 100%;
+}
+
+.close {
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+}
+.ass{
+    
+    width: 430px;
+    padding: 8px;
+    border: 10px inset rgb(67, 64, 255);
+    border-radius: 12px;
+
+
+}
+.ass1{
+    text-align: center;
+    margin: auto 500px;
+}
